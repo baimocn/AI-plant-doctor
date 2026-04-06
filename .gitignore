@@ -1,0 +1,13 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 环境配置
+.vscode/
+
+# 模型文件 (超过 GitHub 限制，不能上传)
+*.pth
+*.h5
+
+# 数据集 (太大，不应该上传)
+data/
