@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">植物病害识别助手</string>
+    <string name="take_photo">拍照</string>
+    <string name="select_image">选择图片</string>
+    <string name="detect">开始检测</string>
+    <string name="detecting">检测中...</string>
+    <string name="disease">病害</string>
+    <string name="confidence">置信度</string>
+    <string name="cause">病因</string>
+    <string name="treatment">防治方法</string>
+    <string name="observation">观察重点</string>
+    <string name="notes">注意事项</string>
+    <string name="no_info">暂无详细信息</string>
+    <string name="permission_denied">权限被拒绝</string>
+</resources>

@@ -1,0 +1,706 @@
+{
+  "Apple_Rotten": {
+    "name": "苹果腐烂病",
+    "common_name": "烂苹果",
+    "cause": "由细菌或真菌（如葡萄孢菌、青霉菌等）侵染，常因机械损伤、贮藏环境湿度过高或果实过熟引发。",
+    "treatment": "及时清除病果，降低贮藏库湿度（保持85%以下），使用杀菌剂（如咪鲜胺、抑霉唑）浸泡或喷洒。",
+    "observation": "果皮出现水渍状褐色软斑，后期长出霉层（灰绿、黑等色）。",
+    "notes": "采收时避免磕碰，入库前严格分选。"
+  },
+  "Apple_black_rot": {
+    "name": "苹果黑腐病",
+    "common_name": "黑星病（不同地区混称）",
+    "cause": "由真菌 Botryosphaeria obtusa 引起，侵染果实、叶片和枝条。",
+    "treatment": "剪除病枯枝，喷施代森锰锌、戊唑醇等保护性+治疗性杀菌剂，加强果园通风透光。",
+    "observation": "果实上形成黑色凹陷圆斑，后期散生小黑点（分生孢子器）；叶片出现紫色轮纹斑。",
+    "notes": "注意清园，烧毁病残体。"
+  },
+  "Apple_rust": {
+    "name": "苹果锈病",
+    "common_name": "赤星病",
+    "cause": "由真菌 Gymnosporangium yamadae 引起，转主寄主为桧柏。",
+    "treatment": "砍除果园周围5公里内的桧柏；喷施三唑酮、苯醚甲环唑等，春季展叶后开始用药。",
+    "observation": "叶片正面产生橙黄色圆形病斑，背面长出毛状锈孢子器。",
+    "notes": "避免与桧柏混栽。"
+  },
+  "Apple_scab": {
+    "name": "苹果疮痂病",
+    "common_name": "黑点病",
+    "cause": "由真菌 Venturia inaequalis 引起，主要危害叶片和果实。",
+    "treatment": "萌芽前喷石硫合剂，花后连续喷施氟硅唑、醚菌酯等；及时清扫落叶。",
+    "observation": "叶片上橄榄绿色至黑色绒状霉斑，果实表面木栓化粗糙斑点。",
+    "notes": "雨季发病重，注意排水和修剪。"
+  },
+  "Banana_Rotten": {
+    "name": "香蕉腐烂病",
+    "common_name": "烂蕉",
+    "cause": "细菌（如欧文氏菌）或真菌（炭疽菌、镰刀菌）侵染，常见于采后或贮运期。",
+    "treatment": "采收后立即用咪鲜胺、噻菌灵浸泡；控制贮运温度（12-15℃）和湿度（85-90%）。",
+    "observation": "果皮变褐软腐，有酸臭味（细菌）或霉层（真菌）。",
+    "notes": "避免机械伤，成熟期控水。"
+  },
+  "Bellpepper_Rotten": {
+    "name": "甜椒腐烂病",
+    "common_name": "烂椒、果腐病",
+    "cause": "多由真菌 Phytophthora capsici 或细菌引起，高湿多雨时易发。",
+    "treatment": "轮作2-3年，发病初期喷施烯酰吗啉、霜脲氰等；及时摘除病果。",
+    "observation": "果实出现水渍状软腐，表面生白色或灰黑色霉层。",
+    "notes": "避免大水漫灌，高垄栽培。"
+  },
+  "Carrot_Rotten": {
+    "name": "胡萝卜腐烂病",
+    "common_name": "软腐病",
+    "cause": "细菌 Pectobacterium carotovorum 或真菌（如白绢病菌）引起。",
+    "treatment": "收获后迅速预冷，贮藏温度0-1℃，湿度90-95%；用次氯酸钠溶液清洗。",
+    "observation": "肉质根软化、流水，有恶臭味。",
+    "notes": "避免连作，采收前控水。"
+  },
+  "Cassava_bacterial_blight": {
+    "name": "木薯细菌性枯萎病",
+    "common_name": "细菌性角斑病（部分产区）",
+    "cause": "细菌 Xanthomonas axonopodis pv. manihotis 侵染。",
+    "treatment": "选用抗病品种，无病种茎；喷施春雷霉素、噻菌铜；田间发现病株立即拔除。",
+    "observation": "叶片出现多角形水渍状斑，后期褐变干枯，茎部流胶。",
+    "notes": "避免从病区引种。"
+  },
+  "Cassava_brown_streak_disease": {
+    "name": "木薯褐条病",
+    "common_name": "CBSD",
+    "cause": "由木薯褐条病毒（CBSV）和乌干达木薯褐条病毒（UCBSV）引起。",
+    "treatment": "无特效药剂，主要采用抗病品种和健康种茎；及时清除病株，防治烟粉虱媒介。",
+    "observation": "茎秆出现褐色条纹，块根内部出现褐色坏死斑。",
+    "notes": "严格检疫，禁止从疫区调运种茎。"
+  },
+  "Cassava_green_mottle": {
+    "name": "木薯绿斑驳病",
+    "common_name": "绿斑病",
+    "cause": "木薯绿斑驳病毒（CGMV）侵染。",
+    "treatment": "使用无病毒种茎，轮作；及时铲除病株；防治介体昆虫（如粉虱、蚜虫）。",
+    "observation": "叶片出现浅绿色或黄绿色斑驳，植株矮化。",
+    "notes": "病毒可通过机械传播，注意农具消毒。"
+  },
+  "Cassava_mosaic_disease": {
+    "name": "木薯花叶病",
+    "common_name": "木薯花叶病毒病",
+    "cause": "由木薯花叶病毒（CMV）和非洲木薯花叶病毒（ACMV）引起。",
+    "treatment": "种植抗病品种，使用无病插条；拔除病株；防治白粉虱。",
+    "observation": "叶片皱缩、扭曲，黄绿相间花叶，植株严重矮化。",
+    "notes": "是非洲木薯最严重的病害之一，需严格检疫。"
+  },
+  "Cherry_powdery_mildew": {
+    "name": "樱桃白粉病",
+    "common_name": "",
+    "cause": "真菌 Podosphaera clandestina 侵染。",
+    "treatment": "萌芽前喷石硫合剂，发病初期喷施腈菌唑、醚菌酯；加强修剪改善通风。",
+    "observation": "叶片表面白色粉状霉层，后期变灰，叶片卷曲。",
+    "notes": "避免偏施氮肥，注意秋季清园。"
+  },
+  "Chili_leaf_curl": {
+    "name": "辣椒卷叶病",
+    "common_name": "",
+    "cause": "多由病毒（如辣椒卷叶病毒）或蚜虫、粉虱传播的植原体引起；也可能由环境胁迫（干旱、高温）诱发。",
+    "treatment": "防治传毒昆虫（吡虫啉、啶虫脒）；喷施抗病毒剂（氨基寡糖素、宁南霉素）；合理灌溉，遮阳降温。",
+    "observation": "叶片向上卷曲、皱缩，叶缘变黄，植株矮化。",
+    "notes": "及时拔除病株，避免连作。"
+  },
+  "Chili_leaf_spot": {
+    "name": "辣椒叶斑病",
+    "common_name": "",
+    "cause": "多种真菌（如 Cercospora capsici、Alternaria 等）引起。",
+    "treatment": "喷施代森锰锌、百菌清、苯醚甲环唑；摘除病叶，轮作。",
+    "observation": "叶片上圆形或不规则褐色斑点，边缘深褐色，中央灰白。",
+    "notes": "高湿多雨时易流行。"
+  },
+  "Chili_whitefly": {
+    "name": "辣椒白粉虱",
+    "common_name": "小白蛾",
+    "cause": "白粉虱（Trialeurodes vaporariorum 或 Bemisia tabaci）刺吸为害，并传播病毒。",
+    "treatment": "悬挂黄板诱杀；喷施噻虫嗪、烯啶虫胺、螺虫乙酯；注意轮换用药。",
+    "observation": "叶片背面有白色小飞虫，叶面煤污病斑。",
+    "notes": "白粉虱易产生抗药性，需综合治理。"
+  },
+  "Chili_yellowish": {
+    "name": "辣椒黄化病",
+    "common_name": "黄叶病",
+    "cause": "可由缺素（铁、镁、氮）、根腐病、病毒病或蚜虫为害引起。",
+    "treatment": "根据病因补充微量元素（硫酸亚铁、硫酸镁）；防治根部病害（灌根恶霉灵）；杀虫控毒。",
+    "observation": "新叶或老叶均匀黄化，叶脉正常或变色。",
+    "notes": "先诊断具体病因，避免盲目施肥。"
+  },
+  "Coffee_cercospora_leaf_spot": {
+    "name": "咖啡尾孢叶斑病",
+    "common_name": "褐斑病",
+    "cause": "真菌 Cercospora coffeicola 侵染。",
+    "treatment": "喷施保护性杀菌剂（代森锰锌）或三唑类（戊唑醇）；修剪过密枝条，降低湿度。",
+    "observation": "叶片上圆形褐色病斑，边缘紫褐色，中央灰白色。",
+    "notes": "加强营养，避免缺钾。"
+  },
+  "Coffee_red_spider_mite": {
+    "name": "咖啡红蜘蛛",
+    "common_name": "红叶螨",
+    "cause": "螨类（如 Oligonychus coffeae）刺吸叶片汁液。",
+    "treatment": "喷施阿维菌素、哒螨灵、螺螨酯；释放捕食螨；干旱时注意灌溉。",
+    "observation": "叶片正面失绿出现灰白色小点，严重时叶片发红脱落，叶背有红色小虫。",
+    "notes": "避免使用广谱杀虫剂杀伤天敌。"
+  },
+  "Coffee_rust": {
+    "name": "咖啡锈病",
+    "common_name": "",
+    "cause": "真菌 Hemileia vastatrix 引起。",
+    "treatment": "种植抗锈品种；喷施三唑酮、氧化萎锈灵；修剪通风，平衡施肥（增磷钾）。",
+    "observation": "叶片背面橙黄色粉状孢子堆，正面浅黄色斑点。",
+    "notes": "该病是咖啡最严重的病害之一，可能导致绝收。"
+  },
+  "Corn__Common_Rust": {
+    "name": "玉米普通锈病",
+    "common_name": "玉米锈病",
+    "cause": "真菌 Puccinia sorghi 引起。",
+    "treatment": "种植抗病品种；发病初期喷施吡唑醚菌酯、戊唑醇、苯醚甲环唑。",
+    "observation": "叶片两面散生褐色夏孢子堆，破裂后散出锈褐色粉末。",
+    "notes": "南方地区发生较重，注意田间通风。"
+  },
+  "Corn__Gray_Leaf_Spot": {
+    "name": "玉米灰斑病",
+    "common_name": "尾孢叶斑病",
+    "cause": "真菌 Cercospora zeae-maydis 侵染。",
+    "treatment": "喷施嘧菌酯、丙环唑、多菌灵；收获后清除病残体。",
+    "observation": "叶片上长条形灰褐色病斑，平行于叶脉，后期连片。",
+    "notes": "高湿、连作田块发病重。"
+  },
+  "Corn__Northern_Leaf_Blight": {
+    "name": "玉米大斑病",
+    "common_name": "大斑病",
+    "cause": "真菌 Exserohilum turcicum 引起。",
+    "treatment": "选用抗病杂交种；喷施吡唑醚菌酯、氟环唑；增施有机肥。",
+    "observation": "叶片上梭形大斑（长可达10cm），灰褐色或青灰色，边缘深褐色。",
+    "notes": "发病温度18-22℃，高湿多雨易流行。"
+  },
+  "Corn__common_rust": {
+    "name": "玉米普通锈病",
+    "common_name": "玉米锈病",
+    "cause": "真菌 Puccinia sorghi。",
+    "treatment": "种植抗病品种；发病初期喷施吡唑醚菌酯、戊唑醇、苯醚甲环唑。",
+    "observation": "叶片两面散生褐色夏孢子堆，破裂后散出锈褐色粉末。",
+    "notes": "南方地区发生较重，注意田间通风。"
+  },
+  "Corn__gray_leaf_spot": {
+    "name": "玉米灰斑病",
+    "common_name": "尾孢叶斑病",
+    "cause": "真菌 Cercospora zeae-maydis。",
+    "treatment": "喷施嘧菌酯、丙环唑、多菌灵；收获后清除病残体。",
+    "observation": "叶片上长条形灰褐色病斑，平行于叶脉，后期连片。",
+    "notes": "高湿、连作田块发病重。"
+  },
+  "Corn__northern_leaf_blight": {
+    "name": "玉米大斑病",
+    "common_name": "大斑病",
+    "cause": "真菌 Exserohilum turcicum。",
+    "treatment": "选用抗病杂交种；喷施吡唑醚菌酯、氟环唑；增施有机肥。",
+    "observation": "叶片上梭形大斑（长可达10cm），灰褐色或青灰色，边缘深褐色。",
+    "notes": "发病温度18-22℃，高湿多雨易流行。"
+  },
+  "Cucumber_Rotten": {
+    "name": "黄瓜腐烂病",
+    "common_name": "烂瓜",
+    "cause": "多由细菌性软腐病（Pectobacterium spp.）或真菌（瓜果腐霉、灰葡萄孢）引起。",
+    "treatment": "及时摘除病瓜，喷施春雷霉素（细菌）或啶酰菌胺（真菌）；加强通风，降低湿度。",
+    "observation": "果实软化、流水、有臭味（细菌）或生灰霉（真菌）。",
+    "notes": "避免果实接触土壤，可用草圈垫瓜。"
+  },
+  "Cucumber_diseased": {
+    "name": "黄瓜病害（未特指）",
+    "common_name": "",
+    "cause": "该标签为笼统的'患病黄瓜'，可能包括霜霉病、白粉病、炭疽病等多种。",
+    "treatment": "需根据具体症状诊断。通用措施：清理病株，喷施广谱杀菌剂（如百菌清、代森锰锌），轮作。",
+    "observation": "叶片出现斑点、霉层，果实畸形或腐烂。",
+    "notes": "建议参照具体病害名进行精准防治。"
+  },
+  "Gauva_diseased": {
+    "name": "番石榴病害（未特指）",
+    "common_name": "",
+    "cause": "可能包括番石榴立枯病、炭疽病、根腐病、果实蝇为害等。",
+    "treatment": "需根据具体症状诊断。通用措施：剪除病枝病果，喷施广谱杀菌剂（如甲基硫菌灵、代森锰锌），加强果园排水。",
+    "observation": "叶片黄化、萎蔫，果实出现褐斑或腐烂。",
+    "notes": "番石榴对铜制剂敏感，慎用。"
+  },
+  "Grape_Rotten": {
+    "name": "葡萄腐烂病",
+    "common_name": "烂果病",
+    "cause": "多由真菌（灰葡萄孢、炭疽菌、曲霉等）或细菌引起，成熟期遇雨高湿易发。",
+    "treatment": "套袋保护；喷施异菌脲、啶酰菌胺、嘧菌酯；控制架面通风，降低湿度。",
+    "observation": "果粒变褐软腐，表面生灰白色或绿色霉层。",
+    "notes": "采收前20天停止用药，避免残留。"
+  },
+  "Grape_black_measles": {
+    "name": "葡萄黑麻疹",
+    "common_name": "葡萄黑痘病（易混淆）",
+    "cause": "真菌 Phomopsis viticola 侵染枝条和果实。",
+    "treatment": "春季萌芽前喷石硫合剂；生长期喷施代森锰锌、苯醚甲环唑；剪除病枝。",
+    "observation": "枝条上出现黑色椭圆形凹陷斑，果皮产生黑色小点，后期开裂。",
+    "notes": "该病易与黑痘病混淆，需镜检确认。"
+  },
+  "Grape_black_rot": {
+    "name": "葡萄黑腐病",
+    "common_name": "",
+    "cause": "真菌 Guignardia bidwellii 引起。",
+    "treatment": "喷施福美双、戊唑醇、吡唑醚菌酯；清除病残体，避免果实日灼伤。",
+    "observation": "果实出现褐色圆斑，后变黑且布满小黑点（分生孢子器），叶片有褐色轮纹斑。",
+    "notes": "该病在高温高湿下流行，果实转色期最易感。"
+  },
+  "Grape_leaf_bright_(Isariopsis_leaf_spot)": {
+    "name": "葡萄褐斑病（由 Isariopsis clavispora 引起）",
+    "common_name": "叶斑病、拟棒束孢叶斑病",
+    "cause": "真菌 Pseudocercospora vitis（原称 Isariopsis clavispora）侵染。",
+    "treatment": "喷施多菌灵、戊唑醇、嘧菌酯；秋季彻底清扫落叶。",
+    "observation": "叶片正面产生不规则褐色病斑，背面生深褐色霉层。",
+    "notes": "多雨年份发病重，注意排水和架面通风。"
+  },
+  "Guava_Rotten": {
+    "name": "番石榴腐烂病",
+    "common_name": "烂果",
+    "cause": "主要由炭疽菌（Colletotrichum gloeosporioides）或果腐病（Pestalotiopsis spp.）引起。",
+    "treatment": "幼果期套袋；喷施咪鲜胺、苯醚甲环唑；采后立即预冷。",
+    "observation": "果实表面出现褐色凹陷斑，后期长出粉红色或黑色孢子堆。",
+    "notes": "避免果实成熟时淋雨，及时采收。"
+  },
+  "Jamun_diseased": {
+    "name": "印度李（Jamun，蒲桃属）病害",
+    "common_name": "乌墨果病害",
+    "cause": "常见有炭疽病、叶斑病、果蝇为害等。",
+    "treatment": "清理落叶落果；喷施代森锰锌或甲基硫菌灵；悬挂果蝇诱捕器。",
+    "observation": "叶片出现斑点，果实软腐或蛀孔。",
+    "notes": "Jamun 中文常称'海南蒲桃'，防治方法参考热带果树。"
+  },
+  "Jujube_Rotten": {
+    "name": "枣腐烂病",
+    "common_name": "烂枣",
+    "cause": "真菌（如炭疽菌、链格孢）或细菌侵染，采收期降雨为诱因。",
+    "treatment": "喷施戊唑醇、肟菌酯；采前20天减少灌水；贮藏前用二氧化氯熏蒸。",
+    "observation": "果皮变褐软腐，果肉发酸或有酒味。",
+    "notes": "裂果后易发，注意补钙防裂。"
+  },
+  "Lemon_diseased": {
+    "name": "柠檬病害（未特指）",
+    "common_name": "",
+    "cause": "可能包括疮痂病、炭疽病、黄龙病、流胶病等。",
+    "treatment": "根据症状用药。通用：修剪病枝，喷施铜制剂（如氢氧化铜）或苯醚甲环唑。",
+    "observation": "叶片黄化、果实表面粗糙或腐烂、枝条流胶。",
+    "notes": "柠檬对矿物油敏感，避免高温喷施。"
+  },
+  "Mango_Rotten": {
+    "name": "芒果腐烂病",
+    "common_name": "烂芒果",
+    "cause": "主要由炭疽病（Colletotrichum gloeosporioides）和蒂腐病（Botryodiplodia theobromae）引起。",
+    "treatment": "采后热水处理（50-55℃浸泡5分钟）；喷施咪鲜胺、吡唑醚菌酯；套袋防护。",
+    "observation": "果皮出现黑色凹陷斑，果肉软化，后期产生橙色孢子堆。",
+    "notes": "采收时留果柄，避免伤口感染。"
+  },
+  "Mango_diseased": {
+    "name": "芒果病害（未特指）",
+    "common_name": "",
+    "cause": "包括白粉病、畸形病、细菌性黑斑病、炭疽病等。",
+    "treatment": "需诊断具体病害。通用措施：剪除病梢，喷施苯醚甲环唑+春雷霉素；加强果园通风。",
+    "observation": "花序畸形、叶片斑点、果实流胶或腐烂。",
+    "notes": "芒果开花期避免使用强刺激性杀菌剂，以免伤花。"
+  },
+  "Orange_Rotten": {
+    "name": "柑橘腐烂病",
+    "common_name": "烂橙、青绿霉病",
+    "cause": "多为贮藏期青霉病（Penicillium italicum）或绿霉病（P. digitatum）。",
+    "treatment": "采后48小时内用药剂（抑霉唑、咪鲜胺）浸果；贮藏库保持低温（5-8℃）和高CO₂。",
+    "observation": "果皮出现白色霉层，中央呈青色或绿色粉状孢子。",
+    "notes": "采收时轻拿轻放，剔除伤果。"
+  },
+  "Peach_bacterial_spot": {
+    "name": "桃细菌性斑点病",
+    "common_name": "桃细菌性穿孔病",
+    "cause": "细菌 Xanthomonas arboricola pv. pruni 侵染。",
+    "treatment": "喷施噻菌铜、春雷霉素、氢氧化铜；冬季清园，剪除病枝。",
+    "observation": "叶片出现水渍状小斑，后穿孔；果实表面有褐色凹陷斑点。",
+    "notes": "避免在开花期和幼果期使用铜制剂。"
+  },
+  "Pepper_bell__Bacterial_spot": {
+    "name": "甜椒细菌性叶斑病",
+    "common_name": "细菌性疮痂病",
+    "cause": "细菌 Xanthomonas campestris pv. vesicatoria 引起。",
+    "treatment": "选用无病种子，种子消毒（55℃温水浸种15分钟）；喷施噻唑锌、噻菌铜、中生菌素；轮作2年以上。",
+    "observation": "叶片上褐色小斑点，边缘黄晕，病斑中间凹陷呈疮痂状。",
+    "notes": "高湿多雨易流行，注意田间排水。"
+  },
+  "Pomegranate_Rotten": {
+    "name": "石榴腐烂病",
+    "common_name": "烂石榴",
+    "cause": "主要由真菌（如 Coniella granati 引起干腐病，或 Aspergillus spp. 引起黑霉病）导致。",
+    "treatment": "套袋前喷施苯醚甲环唑+嘧菌酯；贮藏前用咪鲜胺浸果；降低库房湿度。",
+    "observation": "果皮出现褐色轮纹斑，后期生黑色小粒或黑色霉层。",
+    "notes": "石榴裂果后极易腐烂，注意均衡供水。"
+  },
+  "Pomegranate_diseased": {
+    "name": "石榴病害（未特指）",
+    "common_name": "",
+    "cause": "包括叶斑病、褐斑病、枯萎病、干腐病等。",
+    "treatment": "清除病枝病果，喷施代森锰锌或戊唑醇；冬季涂白树干防冻防病。",
+    "observation": "叶片黄化脱落，枝条干枯，果实表面病斑。",
+    "notes": "石榴修剪后伤口需涂保护剂（如甲托糊剂）。"
+  },
+  "Potato_Rotten": {
+    "name": "马铃薯腐烂病",
+    "common_name": "烂薯",
+    "cause": "细菌性软腐病（Pectobacterium spp.）或真菌性干腐病（Fusarium spp.），贮藏期高湿易发。",
+    "treatment": "收获前停水，收获后晾晒2-3天；贮藏前喷施咯菌腈；保持库温3-5℃，通风良好。",
+    "observation": "薯块软化、流水有臭味（细菌），或干缩凹陷生粉红霉（镰刀菌）。",
+    "notes": "避免机械损伤，入窖前剔除病薯。"
+  },
+  "Potato__Early_blight": {
+    "name": "马铃薯早疫病",
+    "common_name": "夏疫病",
+    "cause": "真菌 Alternaria solani 侵染。",
+    "treatment": "喷施代森锰锌、嘧菌酯、苯醚甲环唑；轮作，增施磷钾肥。",
+    "observation": "叶片上出现同心轮纹状褐色病斑，边缘有黄晕。",
+    "notes": "高温高湿时发病重，注意田间通风。"
+  },
+  "Potato__Late_Blight": {
+    "name": "马铃薯晚疫病",
+    "common_name": "疫病",
+    "cause": "真菌 Phytophthora infestans 引起（历史上爱尔兰饥荒元凶）。",
+    "treatment": "发病前喷施保护剂（代森锰锌、铜制剂）；发病后喷施烯酰吗啉、氟吡菌胺、霜脲氰；及时拔除中心病株。",
+    "observation": "叶片暗绿色水渍状斑，潮湿时生白色霉层，薯块表面褐色凹陷。",
+    "notes": "该病流行迅速，雨后立即检查并用药。"
+  },
+  "Rice__Brown_Spot": {
+    "name": "水稻褐斑病",
+    "common_name": "胡麻叶斑病",
+    "cause": "真菌 Bipolaris oryzae 侵染。",
+    "treatment": "喷施三环唑、异稻瘟净、咪鲜胺；增施钾肥，避免缺钾。",
+    "observation": "叶片上椭圆形褐色小斑，边缘褐色，中央灰白色，形似芝麻粒。",
+    "notes": "缺钾田块发病重，需测土补钾。"
+  },
+  "Rice__Leaf_Blast": {
+    "name": "水稻叶瘟病（稻瘟病叶期症状）",
+    "common_name": "火烧瘟",
+    "cause": "真菌 Magnaporthe oryzae 引起。",
+    "treatment": "喷施三环唑、稻瘟灵、吡唑醚菌酯；控氮增硅，浅水勤灌。",
+    "observation": "叶片上梭形或圆形病斑，边缘褐色，中央灰白色，潮湿时背面生灰色霉层。",
+    "notes": "稻瘟病分叶瘟、节瘟、穗颈瘟，叶瘟期防治最关键。"
+  },
+  "Rice__Neck_Blast": {
+    "name": "水稻穗颈瘟",
+    "common_name": "掐脖瘟",
+    "cause": "同稻瘟病菌（Magnaporthe oryzae），侵染穗颈部。",
+    "treatment": "在破口期和齐穗期各喷一次三环唑或稻瘟灵；避免偏施氮肥。",
+    "observation": "穗颈部变褐干枯，导致整穗白枯或不能灌浆。",
+    "notes": "穗颈瘟可造成严重减产，必须预防为主，见病后用药效果差。"
+  },
+  "Rice_brown_spot": {
+    "name": "水稻褐斑病",
+    "common_name": "胡麻叶斑病",
+    "cause": "真菌 Bipolaris oryzae 侵染，缺钾或缺硅时加重。",
+    "treatment": "喷施三环唑、异稻瘟净、咪鲜胺；增施钾肥和硅肥，避免偏施氮肥。",
+    "observation": "叶片上椭圆形褐色小斑，边缘褐色、中央灰白色，形似芝麻粒。",
+    "notes": "该病常在缺钾田块暴发，测土配方施肥可显著减轻。"
+  },
+  "Rice_hispa": {
+    "name": "水稻铁甲虫",
+    "common_name": "铁甲虫、龟甲虫",
+    "cause": "水稻铁甲（Dicladispa armigera）幼虫潜入叶片为害。",
+    "treatment": "喷施氯虫苯甲酰胺、毒死蜱、高效氯氟氰菊酯；清除田边杂草；灌水杀蛹。",
+    "observation": "叶片表面出现白色长条形食痕，叶尖干枯，严重时整叶发白。",
+    "notes": "成虫活跃于清晨和傍晚，此时喷药效果更佳。"
+  },
+  "Rice_leaf_blast": {
+    "name": "水稻叶瘟病",
+    "common_name": "火烧瘟",
+    "cause": "真菌 Magnaporthe oryzae 侵染叶片。",
+    "treatment": "喷施三环唑、稻瘟灵、吡唑醚菌酯；控氮增施硅钾，浅水灌溉。",
+    "observation": "叶片梭形或圆形病斑，边缘褐色、中央灰白，潮湿时背面生灰色霉层。",
+    "notes": "叶瘟是穗颈瘟的初侵染源，发现叶瘟应立即防治，以防蔓延到穗部。"
+  },
+  "Rice_neck_blast": {
+    "name": "水稻穗颈瘟",
+    "common_name": "掐脖瘟",
+    "cause": "同稻瘟病菌侵染穗颈部。",
+    "treatment": "破口期和齐穗期各喷一次三环唑或稻瘟灵；避免氮肥过迟施用。",
+    "observation": "穗颈部变褐干枯，导致白穗或籽粒不实。",
+    "notes": "此病预防为主，见病后用药效果差，必须在抽穗前保护。"
+  },
+  "Soybean_bacterial_blight": {
+    "name": "大豆细菌性叶枯病",
+    "common_name": "细菌性斑点病",
+    "cause": "细菌 Pseudomonas syringae pv. glycinea 侵染。",
+    "treatment": "选用抗病品种；喷施噻菌铜、春雷霉素、氢氧化铜；轮作1-2年。",
+    "observation": "叶片上水渍状小斑，后变褐色，周围有黄晕，病斑常沿叶脉扩展。",
+    "notes": "高湿、多风雨天气易流行，雨后及时喷药。"
+  },
+  "Soybean_caterpillar": {
+    "name": "大豆尺蠖 / 大豆夜蛾（泛指鳞翅目幼虫）",
+    "common_name": "青虫、豆虫",
+    "cause": "多种夜蛾类幼虫（如大豆夜蛾 Pseudoplusia includens、棉铃虫等）取食叶片。",
+    "treatment": "喷施苏云金杆菌（Bt）、氯虫苯甲酰胺、甲维盐；灯光诱杀成虫。",
+    "observation": "叶片被吃成缺刻或孔洞，严重时仅剩叶脉，幼虫绿色或褐色，白天隐藏。",
+    "notes": "低龄幼虫期用药效果最佳，注意保护天敌（赤眼蜂）。"
+  },
+  "Soybean_diabroticia_speciosa": {
+    "name": "特异角胸叶甲（一种叶甲科害虫）",
+    "common_name": "",
+    "cause": "Diabrotica speciosa 成虫取食叶片，幼虫危害根部。",
+    "treatment": "喷施噻虫嗪、高效氯氟氰菊酯；种子处理（吡虫啉）；轮作，清除杂草。",
+    "observation": "叶片被啃成网状或孔洞，成虫体长约6-8mm，黄绿色带黑斑。",
+    "notes": "该虫在南美大豆区危害严重，我国偶有发生，注意检疫。"
+  },
+  "Soybean_downy_mildew": {
+    "name": "大豆霜霉病",
+    "common_name": "",
+    "cause": "真菌 Peronospora manshurica 侵染。",
+    "treatment": "喷施烯酰吗啉、霜脲氰、吡唑醚菌酯；选用抗病品种，轮作。",
+    "observation": "叶片正面黄绿色褪绿斑，背面生灰白色至淡紫色霜状霉层。",
+    "notes": "种子带菌可导致幼苗发病，播种前用甲霜灵拌种。"
+  },
+  "Soybean_mosaic_virus": {
+    "name": "大豆花叶病毒病",
+    "common_name": "大豆病毒病",
+    "cause": "大豆花叶病毒（SMV）感染，由蚜虫传播。",
+    "treatment": "无特效药剂，种植抗病品种；防治蚜虫（吡虫啉、啶虫脒）；拔除病株。",
+    "observation": "叶片皱缩、黄绿相间花叶，植株矮化，种子产生褐斑（褐斑粒）。",
+    "notes": "病毒可通过种子传播，务必使用无病种子。"
+  },
+  "Soybean_powdery_mildew": {
+    "name": "大豆白粉病",
+    "common_name": "",
+    "cause": "真菌 Microsphaera diffusa 侵染。",
+    "treatment": "喷施醚菌酯、戊唑醇、硫磺悬浮剂；加强通风，避免密植。",
+    "observation": "叶片表面白色粉状霉层，后期变灰，叶片黄化早落。",
+    "notes": "高温干燥天气有利于发病，干旱时注意适当灌溉。"
+  },
+  "Soybean_rust": {
+    "name": "大豆锈病",
+    "common_name": "亚洲大豆锈病",
+    "cause": "真菌 Phakopsora pachyrhizi 引起。",
+    "treatment": "喷施吡唑醚菌酯、丙环唑、嘧菌酯；选用早熟品种避病。",
+    "observation": "叶片上褐色小隆起（夏孢子堆），破裂后散出锈褐色粉末，严重时叶片枯焦。",
+    "notes": "该病可导致大幅减产，发现中心病株立即用药。"
+  },
+  "Soybean_southern_blight": {
+    "name": "大豆白绢病",
+    "common_name": "南方茎腐病",
+    "cause": "真菌 Sclerotium rolfsii 侵染茎基部。",
+    "treatment": "喷施或灌根噻呋酰胺、甲基立枯磷；高垄栽培，避免连作；石灰调节土壤pH。",
+    "observation": "茎基部水渍状褐变，生白色菌丝层，后期形成油菜籽状褐色菌核。",
+    "notes": "高温高湿发病重，发现病株立即拔除并撒石灰消毒病穴。"
+  },
+  "Strawberry_Rotten": {
+    "name": "草莓腐烂病",
+    "common_name": "烂果",
+    "cause": "主要由灰霉病（Botrytis cinerea）或炭疽病（Colletotrichum spp.）引起。",
+    "treatment": "采前喷施啶酰菌胺、异菌脲；采用高垄覆膜，避免果实接触土壤；及时摘除病果。",
+    "observation": "果实出现水渍状软腐，表面生灰色霉层（灰霉）或橙色孢子堆（炭疽）。",
+    "notes": "大棚栽培注意通风降湿，采收期避免浇水。"
+  },
+  "Strawberry_leaf_scorch": {
+    "name": "草莓叶焦病",
+    "common_name": "叶烧病",
+    "cause": "真菌 Diplocarpon earlianum（有性态）侵染。",
+    "treatment": "喷施代森锰锌、戊唑醇、嘧菌酯；及时清除老叶病叶，降低密度。",
+    "observation": "叶片上紫红色不规则病斑，边缘深色，后期病斑中心干枯呈'灼烧'状。",
+    "notes": "该病在温暖高湿环境下蔓延快，注意排水和通风。"
+  },
+  "Sugarcone_Bacterial_Blight": {
+    "name": "甘蔗细菌性枯萎病",
+    "common_name": "甘蔗赤腐病（注意不同，此指细菌性枯萎）",
+    "cause": "细菌 Xanthomonas albilineans 引起。",
+    "treatment": "选用抗病品种，无病种茎；浸种（50℃热水20分钟）；拔除病株；防治叶蝉等传播介体。",
+    "observation": "叶片出现白色细条纹（褪绿条斑），茎秆内部维管束变红，植株矮化。",
+    "notes": "该病检疫风险高，禁止从病区调运蔗种。"
+  },
+  "Sugarcone_Red_Rot": {
+    "name": "甘蔗赤腐病",
+    "common_name": "红腐病",
+    "cause": "真菌 Colletotrichum falcatum 侵染。",
+    "treatment": "选用抗病品种；种茎用苯醚甲环唑浸泡；避免连作，清除病残体。",
+    "observation": "茎秆内部组织变红色，有酒精气味；叶片中脉出现红色条斑。",
+    "notes": "受害甘蔗糖分下降，不宜留种。"
+  },
+  "Sugarcone_red_stripe": {
+    "name": "甘蔗赤条病",
+    "common_name": "红条斑病",
+    "cause": "细菌 Acidovorax avenae subsp. avenae 引起。",
+    "treatment": "喷施噻菌铜、春雷霉素；增施钾肥，避免田间积水；轮作。",
+    "observation": "叶片上出现红色至红褐色细长条斑，平行于叶脉，后期病斑融合。",
+    "notes": "与赤腐病不同，赤条病主要在叶片表现，不侵入蔗茎内部。"
+  },
+  "Sugarcone_rust": {
+    "name": "甘蔗锈病",
+    "common_name": "",
+    "cause": "真菌 Puccinia melanocephala（褐锈）或 P. kuehnii（黄锈）引起。",
+    "treatment": "喷施吡唑醚菌酯、三唑酮、戊唑醇；选用抗病品种，避免偏施氮肥。",
+    "observation": "叶片上散生褐色或黄褐色夏孢子堆，表皮破裂后散出粉末。",
+    "notes": "锈病严重时叶片枯死，影响糖分积累，发病初期及时用药。"
+  },
+  "Tea_algal_leaf": {
+    "name": "茶藻斑病",
+    "common_name": "",
+    "cause": "寄生性绿藻 Cephaleuros virescens 侵染叶片和枝条。",
+    "treatment": "喷施波尔多液或氢氧化铜；修剪过密枝条，改善通风透光。",
+    "observation": "叶片表面出现圆形或不规则锈绿色绒毛状斑块，后期呈灰白色。",
+    "notes": "该病在潮湿、荫蔽的茶园发生重，夏季修剪后注意防病。"
+  },
+  "Tea_anthracnose": {
+    "name": "茶炭疽病",
+    "common_name": "",
+    "cause": "真菌 Colletotrichum camelliae 侵染。",
+    "treatment": "喷施苯醚甲环唑、吡唑醚菌酯、甲基硫菌灵；增施磷钾肥，提高抗性。",
+    "observation": "叶片上暗褐色圆形或不规则病斑，边缘深褐色，中央灰白色，生小黑点（分生孢子盘）。",
+    "notes": "高湿多雨季流行，采摘期注意用药安全间隔（7-10天）。"
+  },
+  "Tea_bird_eye_spot": {
+    "name": "茶鸟眼斑病",
+    "common_name": "茶灰斑病",
+    "cause": "真菌 Cercospora theae 或 Pseudocercospora 引起。",
+    "treatment": "喷施代森锰锌、戊唑醇；及时采摘、修剪，清除病叶。",
+    "observation": "叶片上圆形小斑，边缘紫褐色，中央灰白色，形似鸟眼。",
+    "notes": "该病在管理粗放、衰老茶园多发。"
+  },
+  "Tea_brown_blight": {
+    "name": "茶褐枯病",
+    "common_name": "茶赤叶枯病",
+    "cause": "真菌 Colletotrichum camelliae（与炭疽病相似，但症状偏褐）或 Pestalotiopsis 属。",
+    "treatment": "同茶炭疽病：喷施苯醚甲环唑、嘧菌酯；加强肥水管理。",
+    "observation": "叶片边缘或尖端出现黄褐色至红褐色枯斑，病健界限明显。",
+    "notes": "该病常与炭疽病混合发生，可参照炭疽病防治。"
+  },
+  "Tea_red_leaf_spot": {
+    "name": "茶赤叶斑病",
+    "common_name": "红点病",
+    "cause": "真菌 Phyllosticta theicola 侵染。",
+    "treatment": "喷施百菌清、甲基硫菌灵；冬季清园，修剪病枝。",
+    "observation": "叶片上散生圆形红色或紫红色小斑点，后期可扩大融合。",
+    "notes": "干旱条件下发病重，注意适时灌溉。"
+  },
+  "Tomato_Bacterial_spot": {
+    "name": "番茄细菌性斑点病",
+    "common_name": "细菌性疮痂病",
+    "cause": "细菌 Xanthomonas campestris pv. vesicatoria 侵染。",
+    "treatment": "种子消毒（55℃温水浸种15分钟）；喷施噻菌铜、春雷霉素、中生菌素；轮作2年以上。",
+    "observation": "叶片上褐色小斑点，边缘黄晕，病斑凹陷；果实上出现白色至褐色疮痂状斑点。",
+    "notes": "高湿多雨易流行，注意通风降湿。"
+  },
+  "Tomato_Early_blight": {
+    "name": "番茄早疫病",
+    "common_name": "夏疫病",
+    "cause": "真菌 Alternaria solani 侵染。",
+    "treatment": "喷施代森锰锌、苯醚甲环唑、嘧菌酯；增施磷钾肥，避免氮肥过多。",
+    "observation": "叶片上出现同心轮纹状褐色病斑，边缘有黄晕；茎部和果实也可受害。",
+    "notes": "该病常在结果期加重，注意及时摘除老叶病叶。"
+  },
+  "Tomato_Late_blight": {
+    "name": "番茄晚疫病",
+    "common_name": "疫病",
+    "cause": "真菌 Phytophthora infestans 侵染（与马铃薯晚疫病同源）。",
+    "treatment": "发病前喷施保护剂（代森锰锌、铜制剂）；发病后喷施烯酰吗啉、霜脲氰、氟吡菌胺；及时拔除中心病株。",
+    "observation": "叶片上暗绿色水渍状斑，潮湿时生白色霉层；茎部黑褐色，果实形成硬褐斑（'鬼斑'）。",
+    "notes": "该病流行极快，阴雨天后立即检查并用药。"
+  },
+  "Tomato_Leaf_Mold": {
+    "name": "番茄叶霉病",
+    "common_name": "",
+    "cause": "真菌 Passalora fulva（原 Cladosporium fulvum）侵染。",
+    "treatment": "喷施嘧菌酯、氟硅唑、百菌清；加强通风，降低湿度，采用膜下滴灌。",
+    "observation": "叶片背面生黄褐色至灰紫色绒状霉层，正面有褪绿黄斑，严重时叶片卷曲干枯。",
+    "notes": "该病主要危害保护地番茄，湿度高于90%时易流行。"
+  },
+  "Tomato_Septoria_leaf_spot": {
+    "name": "番茄斑枯病",
+    "common_name": "叶斑病、七点病",
+    "cause": "真菌 Septoria lycopersici 侵染。",
+    "treatment": "喷施代森锰锌、苯醚甲环唑、嘧菌酯；轮作，彻底清除病残体。",
+    "observation": "叶片上圆形小斑，边缘深褐色，中央灰白色，散生小黑点（分生孢子器）。",
+    "notes": "该病从下部老叶开始，应及时摘除病叶并销毁。"
+  },
+  "Tomato_Spider_mites_Two_spotted_spider_mite": {
+    "name": "番茄二斑叶螨",
+    "common_name": "白蜘蛛、红蜘蛛（混淆）",
+    "cause": "二斑叶螨（Tetranychus urticae）刺吸叶片汁液。",
+    "treatment": "喷施阿维菌素、哒螨灵、联苯肼酯、乙唑螨腈；释放捕食螨（智利小植绥螨）。",
+    "observation": "叶片失绿呈灰白色或黄白色小点，严重时叶片焦枯脱落，叶背有细丝网和白色、红色螨虫。",
+    "notes": "该螨抗药性强，需轮换用药，避免使用菊酯类（刺激螨类繁殖）。"
+  },
+  "Tomato_Rotten": {
+    "name": "番茄腐烂病",
+    "common_name": "烂番茄",
+    "cause": "可由晚疫病、绵腐病（Phytophthora spp.）、酸腐病（Geotrichum）、细菌性软腐病等引起。",
+    "treatment": "根据病因用药。通用：采前喷施烯酰吗啉+噻菌酮；及时摘除病果，避免积水。",
+    "observation": "果皮水渍状软腐，有臭味（细菌）或生白色霉层（绵腐）、灰霉（灰霉病）。",
+    "notes": "成熟期避免大水漫灌，采收时保留果柄。"
+  },
+  "Tomato_Tomato_YellowLeaf_Curl_Virus": {
+    "name": "番茄黄化曲叶病毒病",
+    "common_name": "TYLCV",
+    "cause": "番茄黄化曲叶病毒（TYLCV），由烟粉虱（Bemisia tabaci）传播。",
+    "treatment": "无特效药剂，重点是防治烟粉虱（噻虫嗪、啶虫脒、螺虫乙酯）；使用防虫网、黄板；种植抗病品种。",
+    "observation": "植株矮化，顶部叶片黄化、变小、上卷、皱缩，节间缩短。",
+    "notes": "苗期感病损失最重，育苗期必须全程防粉虱。"
+  },
+  "Tomato_Tomato_mosaic_virus": {
+    "name": "番茄花叶病毒病",
+    "common_name": "ToMV",
+    "cause": "番茄花叶病毒（ToMV），通过种子、汁液接触、农事操作传播。",
+    "treatment": "无特效药，使用无病种子（10%磷酸三钠浸种20分钟）；农具消毒；拔除病株；喷施氨基寡糖素提高抗性。",
+    "observation": "叶片出现黄绿相间花叶、皱缩畸形，果实着色不均（花脸果）。",
+    "notes": "操作时先处理健株再处理病株，避免手和工具传毒。"
+  },
+  "Tomato_septoria_leaf_spot": {
+    "name": "番茄斑枯病",
+    "common_name": "叶斑病、七点病",
+    "cause": "真菌 Septoria lycopersici 侵染。",
+    "treatment": "喷施代森锰锌、苯醚甲环唑、嘧菌酯；轮作2年以上；彻底清除病残体。",
+    "observation": "叶片上圆形小斑，边缘深褐色，中央灰白色，散生小黑点（分生孢子器）。",
+    "notes": "该病从下部老叶开始，及时摘除病叶并带出田外销毁。"
+  },
+  "Tomato_spider_mites_(two_spotted_spider_mite)": {
+    "name": "番茄二斑叶螨",
+    "common_name": "白蜘蛛、红蜘蛛（易混）",
+    "cause": "二斑叶螨（Tetranychus urticae）刺吸叶片汁液。",
+    "treatment": "喷施阿维菌素、哒螨灵、联苯肼酯、乙唑螨腈；释放捕食螨（智利小植绥螨）；避免使用菊酯类农药。",
+    "observation": "叶片失绿呈灰白色小点，严重时焦枯脱落，叶背有细丝网和红色/白色螨虫。",
+    "notes": "该螨抗药性强，需轮换用药，注意田间调查，发现中心株立即防治。"
+  },
+  "Tomato_target_spot": {
+    "name": "番茄靶斑病",
+    "common_name": "褐斑病、棒孢叶斑病",
+    "cause": "真菌 Corynespora cassiicola 侵染。",
+    "treatment": "喷施咪鲜胺、苯醚甲环唑、吡唑醚菌酯；加强通风降湿，避免叶面结露。",
+    "observation": "叶片上圆形褐色病斑，具同心轮纹（靶心状），中央色浅，边缘深褐色。",
+    "notes": "该病在高温高湿保护地发生重，可同时危害茎和果实。"
+  },
+  "Tomato_yellow_leaf_curl_virus": {
+    "name": "番茄黄化曲叶病毒病",
+    "common_name": "TYLCV",
+    "cause": "番茄黄化曲叶病毒（TYLCV），由烟粉虱（Bemisia tabaci）传播。",
+    "treatment": "无特效药剂，重点防治烟粉虱（噻虫嗪、啶虫脒、螺虫乙酯）；使用防虫网（60目）、黄板；种植抗病品种。",
+    "observation": "植株矮化，顶部叶片黄化、变小、上卷、皱缩，节间缩短，开花结果少。",
+    "notes": "苗期感病损失最重，育苗期必须全程防粉虱，移栽后立即保护。"
+  },
+  "Wheat___Brown_Rust": {
+    "name": "小麦褐锈病",
+    "common_name": "叶锈病",
+    "cause": "真菌 Puccinia triticina 侵染。",
+    "treatment": "喷施戊唑醇、丙环唑、吡唑醚菌酯；选用抗病品种，避免偏施氮肥。",
+    "observation": "叶片上散生橙褐色夏孢子堆（圆形，不规则散生），表皮破裂后散出褐色粉末。",
+    "notes": "该病在温暖多湿条件下流行，抽穗后注意监测。"
+  },
+  "Wheat___Yellow_Rust": {
+    "name": "小麦条锈病",
+    "common_name": "黄疸病",
+    "cause": "真菌 Puccinia striiformis f. sp. tritici 侵染。",
+    "treatment": "喷施三唑酮、戊唑醇、嘧菌酯；种植抗病品种，春季早查早治。",
+    "observation": "叶片上排列成行（条纹状）的鲜黄色夏孢子堆，像缝纫线。",
+    "notes": "条锈病流行速度快，低温（5-15℃）高湿易发，发现中心病株立即用药。"
+  },
+  "Wheat___septoria": {
+    "name": "小麦颖枯病（或叶斑病）",
+    "common_name": "Septoria 叶斑病",
+    "cause": "真菌 Septoria tritici（叶斑）或 Stagonospora nodorum（颖枯）侵染。",
+    "treatment": "喷施丙环唑、嘧菌酯、多菌灵；轮作，避免播种过密。",
+    "observation": "叶片上长椭圆形灰褐色病斑，散生小黑点（分生孢子器）；严重时颖壳枯死。",
+    "notes": "该病在雨水多的年份易流行，注意田间排水和通风。"
+  }
+}
